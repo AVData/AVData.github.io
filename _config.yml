@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: My website
+title: Exploratory Data Analysis by A. Vargas
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: Taking inquisitive and augmenting it with python to learn about the world.
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -59,25 +59,25 @@ footer-link-col: "#404040"
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-author:
-  name: Some Person
+author: Agustin Vargas
+  name: Agustin Vargas
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+#  rss: true
+  email: "AgustinVargas@ProtonMail.com"
+# facebook: deanattali
+  github: AVData
+# twitter: daattali
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: deanat78
+  instagram: PythonAndPlants
 #  youtube: user/deanat78
 #  spotify: yourname
 #  telephone: +14159998888
@@ -90,6 +90,7 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
+  instagram: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
