@@ -22,7 +22,7 @@ description: Taking inquisitive and augmenting it with python to learn about the
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Blog Posts: "https://medium.com/@mydata"
+    - Beautiful Jekyll: "https://medium.com/@mydata"
     - Learn markdown: "http://www.markdowntutorial.com/"
   Author's home: "https://medium.com/@mydata"
 
@@ -68,17 +68,17 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
 #  rss: true
-    email: "AgustinVargas@ProtonMail.com"
-   github: AVData
-  twitter: sentientcells
-instagram: ymvps
- linkedin: vargasstem
+ email: "AgustinVargas@ProtonMail.com"
+ github: AVData
+ twitter: sentientcells
+ instagram: ymvps/
+ linkedin: vargasstem/
 #  reddit: yourname
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat7
 #  youtube: user/deanat78
- spotify: AgustinVargas
+ spotify: 37t3cvb5u3o97hin4bsj40abw?si=o8Oqq5_8Se6YOWckbwDV8w
 #  telephone: +14159998888
 #  steam: deanat78
 #  twitch: yourname
@@ -87,7 +87,7 @@ instagram: ymvps
 # Select which share links to show in posts
 share-links-active:
   twitter: true
-  facebook: false
+  # facebook: false
   linkedin: true
   instagram: true
   spotify: true
