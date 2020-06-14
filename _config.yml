@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: Agustin "Cody" Vargas
+title: Life and Work
 
 # Short description of your site
 description: Taking inquisitive and augmenting it with python to learn about the world.
@@ -69,10 +69,10 @@ author:
 social-network-links:
 #  rss: true
  email: "AgustinVargas@ProtonMail.com"
+ linkedin: vargasstem/
  github: AVData
  twitter: sentientcells
  instagram: ymvps/
- linkedin: vargasstem/
 #  reddit: yourname
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
