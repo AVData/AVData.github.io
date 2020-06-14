@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: Life and Work by Agustin "Cody" Vargas
+title: Agustin "Cody" Vargas
 
 # Short description of your site
 description: Taking inquisitive and augmenting it with python to learn about the world.
@@ -22,7 +22,7 @@ description: Taking inquisitive and augmenting it with python to learn about the
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://medium.com/@mydata"
+    - Blog Posts: "https://medium.com/@mydata"
     - Learn markdown: "http://www.markdowntutorial.com/"
   Author's home: "https://medium.com/@mydata"
 
@@ -39,7 +39,7 @@ avatar: "/img/profile pic.png"
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
 navbar-col: "#F5F5F5"
-navbar-text-col: "#404040"
+navbar-text-col: "#12140b"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
 link-col: "#008AFF"
@@ -60,7 +60,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Agustin Vargas
+  name: Life and Work
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -68,18 +68,17 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
 #  rss: true
-  email: "AgustinVargas@ProtonMail.com"
-# facebook: deanattali
-  github: AVData
-# twitter: daattali
+    email: "AgustinVargas@ProtonMail.com"
+   github: AVData
+  twitter: sentientcells
+instagram: ymvps
+ linkedin: vargasstem
 #  reddit: yourname
-#  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: PythonAndPlants
+#  snapchat: deanat7
 #  youtube: user/deanat78
-#  spotify: yourname
+ spotify: AgustinVargas
 #  telephone: +14159998888
 #  steam: deanat78
 #  twitch: yourname
@@ -88,13 +87,14 @@ social-network-links:
 # Select which share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   linkedin: true
   instagram: true
+  spotify: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://medium.com/@mydata"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "https://medium.com/@mydata"
 
 # --- Web Statistics Section --- #
 
