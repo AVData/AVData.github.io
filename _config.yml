@@ -21,9 +21,9 @@ description: Taking inquisitive and augmenting it with python to learn about the
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://medium.com/@mydata"
-    - Learn markdown: "http://www.markdowntutorial.com/"
+  # Resources:
+    # - Beautiful Jekyll: "https://medium.com/@mydata"
+    # - Learn markdown: "http://www.markdowntutorial.com/"
   Author's home: "https://medium.com/@mydata"
 
 # Image to show in the navigation bar - image must be a square (width = height)
