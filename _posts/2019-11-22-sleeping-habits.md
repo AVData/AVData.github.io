@@ -2,7 +2,7 @@
 layout: post
 title: What Affects My Quality of Sleep?
 published: True
-<!-- image: /img/hello_world.jpeg -->
+image: /img/
 ---
 
 
