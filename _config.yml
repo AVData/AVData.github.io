@@ -21,7 +21,7 @@ baseurl: ""
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  title: "action_is_character"
+  # : "action_is_character"
   # Resources:
     # - Beautiful Jekyll: "https://medium.com/@mydata"
     # - Learn markdown: "http://www.markdowntutorial.com/"
