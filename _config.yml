@@ -21,6 +21,7 @@ baseurl: ""
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  title: "action_is_character"
   # Resources:
     # - Beautiful Jekyll: "https://medium.com/@mydata"
     # - Learn markdown: "http://www.markdowntutorial.com/"
@@ -38,7 +39,7 @@ avatar: "/img/profile pic.png"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#F5F5F5"
+navbar-col: "#FFFFFF"
 navbar-text-col: "#1e3a09"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
@@ -174,7 +175,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: false  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   -
     scope:
