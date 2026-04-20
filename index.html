@@ -3,15 +3,18 @@ layout: page
 title: Blog
 ---
 
-{% assign posts = site.posts | where_exp: "post", "post.categories contains 'archive' == false" %}
-{% for post in posts %}
-  <article>
-    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-    <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-    {% if post.description %}<p>{{ post.description }}</p>{% endif %}
-  </article>
+{% assign has_posts = false %}
+{% for post in site.posts %}
+  {% unless post.categories contains 'archive' %}
+    {% assign has_posts = true %}
+    <article>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+      {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+    </article>
+  {% endunless %}
 {% endfor %}
 
-{% if posts.size == 0 %}
+{% unless has_posts %}
   <p>No posts yet.</p>
-{% endif %}
+{% endunless %}
