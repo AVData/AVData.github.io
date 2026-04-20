@@ -22,9 +22,15 @@ The first obstacle in attempting to answer any question is always understanding 
 
 I then looked at the distribution of two important parameters, Time in Bed and Qs. As you can see, the distribution in my Qs seems to be normally distributed between 0 and 1; 0 being poorest Qs and 1 being best Qs. Some of the data contained very small Qs values and thus were omitted from analysis and treated as outliers.
 
+![Sleep Quality Distribution](/img/pop_sleep_qs_dist.png)
+![Time in Bed Distribution](/img/pop_time_in_bed_dist.png)
+
 With respect to the rest of the world's Qs (0.76) I rank low, with an average Qs of 0.55. Naturally, I would also expect the amount of time I spend asleep to rank proportionally low (5.24 hrs/night); if you remember, Time in Bed is one of the contributing features to the overall measurement in Qs.
 
 Another feature worth exploring as it relates to Qs and Time in Bed is weekday. Using the 'Start' and 'End' date-time columns I engineered a column containing the respective day of the week I went to bed for each element in the data. The following figures illustrate this analysis but show no clear trend, other than Friday nights typically resulted in better and more sleep.
+
+![Qs vs Weekday](/img/pop_qs_wkdy.png)
+![Time in Bed vs Weekday](/img/pop_t_to_b_wkdy.png)
 
 ## Analysis
 
@@ -39,7 +45,13 @@ The t-test for independence generates p-values, which provide insight on whether
 
 The results show that while holding everything else constant, my academics did in fact have an effect on my quality of sleep and time in bed. According to the distribution means there was an increase of 7% in Qs, and an average of 30 min more time spent in bed during my time as a student.
 
+![Before vs During - Qs Distribution](/img/before_during_qs_dist.png)
+![Before vs During - Time in Bed Distribution](/img/before_during_time_in_bed_dist.png)
+
 The figures also contain information regarding weekday trends as they pertain to time before and during academics. Again, there is no clear trend nor difference between the two time periods, but there is one day that stands out. Over both observations, Mondays show a significant difference when compared between academic periods (before and during). This result makes me curious — what is happening on Mondays that causes the notable difference in sleep quality? I'll come back to this question in the near future.
+
+![Before vs During - Qs by Weekday](/img/before_during_qs_wkdy.png)
+![Before vs During - Time in Bed by Weekday](/img/before_during_time_in_bed_wkdy.png)
 
 ## Conclusion
 
