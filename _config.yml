@@ -25,6 +25,14 @@ social:
     - https://github.com/AVData
     - https://www.instagram.com/ymvps/
 
+menu:
+  - title: Blog
+    url:   /
+  - title: Archive
+    url:   /archive/
+  - title: About
+    url:   /aboutme/
+
 hydejack:
   dark_mode:
     always:            true

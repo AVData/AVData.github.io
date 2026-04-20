@@ -3,6 +3,7 @@ layout: post
 title: Does school improve my quality of sleep?
 description: Using Python and Sleep Cycle data to find out if academics affected my sleep quality.
 date: 2019-11-21
+categories: [archive]
 ---
 
 According to the Center for Disease Control and Prevention (CDC), 35.5% of men in the United States suffered from Short Sleep Duration (SSD) in 2014; which is defined by "[Getting] less than 7 hours of sleep over a 24–hour period." A higher proportion of individuals suffering from chronic SSD also reported a slew of other health risk behaviors, as well as an increased risk for chronic health conditions. A few of the health risk behaviors were obesity, physical inactivity, and excessive drinking. These same individuals were also considered to be at greater risk of suffering from chronic health conditions including heart attacks, coronary heart disease, strokes, depression, and diabetes. I marginally fall into the category of individuals having SSD, but luckily for me I maintain an otherwise healthy lifestyle. Over the next few minutes and paragraphs you'll see how academics has played a role in this aspect of my life.
