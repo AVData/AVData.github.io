@@ -14,8 +14,9 @@ google_fonts:          false
 
 author:
   name:                Agustin Vargas
+  tagline:             Action is character manifested — exploring data, life, and everything in between.
   email:               AgustinVargas@ProtonMail.com
-  picture:             /img/profile pic.png
+  picture:             /img/profile-pic.png
 
 social:
   name:                Agustin Vargas
