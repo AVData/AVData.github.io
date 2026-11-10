@@ -4,7 +4,7 @@ description:           Taking inquisitive and augmenting it with python to learn
 url:                   https://AgustinCody.com
 baseurl:               ""
 
-remote_theme:          hydecorp/hydejack@v9
+remote_theme:          hydecorp/hydejack@60dc33975f8fccb1a23f44ee553acb52f6b3cf86  # v9.2.1
 
 accent_image:          /img/path.jpg
 accent_color:          rgb(79,177,186)
